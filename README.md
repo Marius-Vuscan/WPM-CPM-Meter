@@ -1,6 +1,6 @@
 # WPM-CPM-Meter
 
-Find how fast are your fingers!
+Find how fast are your fingers! :speech_balloon:
 
 # Screenshot
 
