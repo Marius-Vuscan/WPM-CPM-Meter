@@ -37,6 +37,7 @@ $("#button").click(function(){
 	
 	$(".start").hide();
 	$(".sts").show();
+	$("#i2").focus();
 	setTimeout(afterTimer, 60000);	
 });
 
