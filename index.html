@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WPM and CPM Meter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">	
+</head>
+<body>
+	<div id="wpm-cpm">
+		<div id="header">
+			<p>WPM and CPM Meter</p>
+		</div>
+		<div class="cont">
+			<div class="enter start">
+				<article><br><br>
+					<p style="font-size: 32px;text-shadow: 2px 2px 4px #000000;">Find how fast are your fingers!</p><br><br>
+
+					<p>CPM = Characters Per Minute</p><br>
+					<p>WPM = Words Per Minute </p><br><br>
+
+					<p>Rules:</p>
+					<ul>
+					<li>Press the space bar after each word.</li>
+					<li>Do not write ',' after the words.</li>
+					<li>Mistakes are not counted.</li>
+					<li style="color: lime; text-shadow: 2px 2px 4px #000000;">Most important rule! Enjoy!</li>
+					</ul>
+					<p>Good luck!</p>
+				</article>
+			</div><br>
+			<input class="inc sts stoph" id="i1" type="text" name="" disabled>
+			<input class="inc sts stoph" id="i2" type="text" name="">
+			<br><input class="start stop" id="button" type="button" name="" value="Start"><br><br>
+			<p class="inc sts">WPM :  </p><p class="inc lime sts" id="WPM"></p>
+			<p class="inc sts">CPM :  </p><p class="inc lime sts" id="CPM"></p>
+			<p class="inc sts">Mistakes :  </p><p style="color: red;" class="inc sts" id="Mistakes"></p>
+			<div class="inc start stop">
+			<li>
+				<br><br><p style="color: black;">WPM:</p><br>
+				<ul><p>Very Slow:</p><p class="lime">-23</p></ul>
+				<ul><p>Slow:</p><p class="lime">23-35</p></ul>
+				<ul><p>Moderate:</p><p class="lime">35-40</p></ul>
+				<ul><p>Fast:</p><p class="lime">40-50</p><br></ul>
+				<ul><p>Pro I:</p><p class="lime">50-80</p></ul>
+				<ul><p>Pro II:</p><p class="lime">80-95</p></ul>
+				<ul><p>Pro III:</p><p class="lime">95-120</p></ul>
+				<ul><p>God:</p><p class="lime">+120</p></ul>
+			</li>
+			</div>
+		</div>
+		<div id="footer">
+			<p>by Marius Vușcan</p>
+		</div>
+		<!-- 
+			stoph= (hide)after the timer
+			stop= (show)after the timer
+			start= (hide)on click
+			sts= (show)on click
+			inc= (hide)when you open first
+		 -->
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

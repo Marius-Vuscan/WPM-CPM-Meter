@@ -1,0 +1,72 @@
+#header
+{
+	background-color: #087563;
+	color: white;
+	width: 450px;
+	height: 20px;
+}
+.cont
+{
+	background: linear-gradient(#023363, #087563);
+	color: white;
+	width: 450px;
+	height: 550px;
+}
+article
+{
+	font-size: 25px;
+}
+p
+{
+	font-size: 18px;
+	color: white;
+	display: inline;
+	margin-left: 23px;
+	padding-top: 100px;
+}
+input,#i1
+{
+	width: 400px;
+	height: 30px;
+	background-color: white;
+	color: black;
+	font-size: 16px;
+	padding: 0;
+	margin-left: 23px;
+}
+#i1
+{
+	height: 100px;
+	width: 400px;
+}
+#i2
+{
+	margin-top: 30px;
+}
+#button
+{
+	margin-top: 30px;
+	width: 200px;
+	height: 30px;
+	margin-left: 130px;
+	background-color: #2a8475;
+	border: 0;
+	color: white;
+	box-shadow: 2px 2px 4px #000000;
+	text-shadow: 2px 2px 4px #000000;
+}
+#button:hover
+{
+	background-color: #023363;	
+}
+.lime
+{
+	color: lime;
+}
+#footer
+{
+	background-color: #023363;
+	color: white;
+	width: 450px;
+	height: 20px;
+}
