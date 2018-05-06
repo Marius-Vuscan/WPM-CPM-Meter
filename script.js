@@ -34,11 +34,11 @@ $("#button").click(function(){
 	$("#WPM").text(wpm);
 	$("#CPM").text(wpm);
 	$("#Mistakes").text(mistakes);
-	
+
 	$(".start").hide();
 	$(".sts").show();
 	$("#i2").focus();
-	setTimeout(afterTimer, 60000);	
+	setTimeout(afterTimer, 60000);
 });
 
 $('#i2').keypress(function(e) {
@@ -65,7 +65,7 @@ $('#i2').keypress(function(e) {
 
 function afterTimer()
 {
-	console.log("stop");
+	$("#i2").val("");
 	$(".stoph").hide();
 	$(".stop").show();
 }
