@@ -1,6 +1,7 @@
 # WPM-CPM-Meter
 
 Find how fast are your fingers! :speech_balloon:
+
 Words per minute, commonly abbreviated WPM, is a measure of words processed in a minute, often used as a measurement of the speed of typing.
 
 # Screenshot
